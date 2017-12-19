@@ -1,0 +1,31 @@
+digraph g {
+__start0 [label="" shape="none"];
+
+	s0 [shape="circle" label="0"];
+	s1 [shape="circle" label="1"];
+	s2 [shape="circle" label="2"];
+	s3 [shape="circle" label="3"];
+	s4 [shape="circle" label="4"];
+	s5 [shape="circle" label="5"];
+	s6 [shape="circle" label="6"];
+	s0 -> s1 [color="green" label="ClientHelloRSA / ClientHelloDHE \n HandshakeServerHello / TLSv12Handshake / CertificateHandshake / ServerHelloDone"];
+	s0 -> s2 [label="Other \n ConnectionClosed"];
+	s0 -> s2 [label="ChangeCipherSpec / Alert10 \n Empty"];
+	s0 -> s3 [label="ApplicationDataEmpty \n Empty"]; 
+	s1 -> s2 [label="Other \n ConnectionClosed"];
+	s1 -> s4 [color="green" label="ClientKeyExchange \n Empty"];
+	s1 -> s1 [label="ApplicationDataEmpty \n Empty"];
+	s2 -> s2 [label="Other\n ConnectionClosed"];
+	s3 -> s2 [label="Other \n ConnectionClosed"];
+	s3 -> s2 [label="ApplicationDataEmpty \n Empty"];
+	s4 -> s2 [label="Other \n ConnectionClosed"];
+	s4 -> s5 [color="green" label="ChangeCipherSpec \n Empty"];
+	s4 -> s4 [label="ApplicationDataEmpty / Empty"];
+	s5 -> s2 [label="Other \n ConnectionClosed"];
+	s5 -> s6 [color="green" label="Finished \n ChangeCipherSpecHandshakeFinished"];
+	s5 -> s5 [label="ApplicationDataEmpty \n Empty"];
+	s6 -> s2 [color="green" label="Other \n ConnectionClosed"];
+	s6 -> s6 [label="ApplicationDataEmpty \n Empty"];
+
+__start0 -> s0;
+}

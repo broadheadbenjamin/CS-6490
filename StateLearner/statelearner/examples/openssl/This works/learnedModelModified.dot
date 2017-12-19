@@ -1,0 +1,50 @@
+digraph g {
+__start0 [label="" shape="none"];
+
+	s0 [shape="circle" label="0"];
+	s1 [shape="circle" label="1"];
+	s2 [shape="circle" label="2"];
+	s3 [shape="circle" label="3"];
+	s4 [shape="circle" label="4"];
+	s5 [shape="circle" label="5"];
+	s6 [shape="circle" label="6"];
+	s7 [shape="circle" label="7"];
+	s8 [shape="circle" label="8"];
+	s9 [shape="circle" label="9"];
+	s10 [shape="circle" label="10"];
+	s0 -> s1 [color="green" label="ClientHelloRSA/DHE \n HandshakeServerHello/TLSv12Handshake/CertificateHandshake/ServerHelloDone"];
+	s0 -> s2 [label="ChangeCipherSpec \n Empty"];
+	s0 -> s2 [label="Other \n ConnectionClosed"];
+	s0 -> s3 [label="ApplicationDataEmpty / Empty"];
+	s1 -> s4 [label="ClientHelloRSA/DHE \n HandshakeServerHello/TLSv12Handshake/CertificateHandshake/ServerHelloDone"];
+	s1 -> s2 [label="Other \n Alert2.10/ConnectionClosed"];
+	s1 -> s5 [color="green" label="ClientKeyExchange \n Empty"];
+	s1 -> s1 [label="ApplicationDataEmpty \n Empty"];
+	s2 -> s2 [label="All \n ConnectionClosed"];
+	s3 -> s2 [label="Other \n ConnectionClosed"];
+	s3 -> s2 [label="ApplicationDataEmpty \n Empty"];
+	s4 -> s2 [label="ClientHelloRSA/DHE \n ConnectionClosed"];
+	s4 -> s2 [label="Other \n Alert2.10/ConnectionClosed"];
+	s4 -> s10 [label="ClientKeyExchange \n Empty"];
+	s4 -> s4 [label="ApplicationDataEmpty \n Empty"];
+	s5 -> s2 [label="Other \n Alert2.10/ConnectionClosed"];
+	s5 -> s6 [color="green" label="ChangeCipherSpec \n Empty"];
+	s5 -> s5 [label="ApplicationDataEmpty \n Empty"];
+	s6 -> s2 [label="Other \n Alert2.10/ConnectionClosed"];
+	s6 -> s7 [color="green" label="Finished \n ChangeCipherSpec/HandshakeFinished"];
+	s6 -> s6 [label="ApplicationDataEmpty \n Empty"];
+	s7 -> s2 [label="ClientHelloRSA/DHE \n Alert2.40/ConnectionClosed"];
+	s7 -> s2 [label="Other \n Alert2.10/ConnectionClosed"];
+	s7 -> s8 [label="ChangeCipherSpec \n Empty"];
+	s7 -> s2 [color="green" label="ApplicationData \n ApplicationData/ConnectionClosed"];
+	s7 -> s7 [label="ApplicationDataEmpty \n Empty"];
+	s8 -> s2 [label="All \n Alert2.20/ConnectionClosed"];
+	s9 -> s2 [label="Other \n Alert2.10/ConnectionClosed"];
+	s9 -> s2 [label="Finished \n Alert2.51/ConnectionClosed"];
+	s9 -> s9 [label="ApplicationDataEmpty \n Empty"];
+	s10 -> s2 [label="Other \n Alert2.10/ConnectionClosed"];
+	s10 -> s9 [label="ChangeCipherSpec \n Empty"];
+	s10 -> s10 [label="ApplicationDataEmpty \n Empty"];
+
+__start0 -> s0;
+}

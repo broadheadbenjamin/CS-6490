@@ -1,0 +1,33 @@
+Dec 01, 2017 9:59:52 PM nl.cypherpunk.statelearner.Learner <init>
+INFO: Using TLS SUL
+Dec 01, 2017 9:59:58 PM nl.cypherpunk.statelearner.Learner learn
+INFO: Using learning algorithm ExtensibleLStarMealy
+Dec 01, 2017 9:59:58 PM nl.cypherpunk.statelearner.Learner learn
+INFO: Using equivalence algorithm MealyModifiedWMethodEQOracle
+Dec 01, 2017 9:59:58 PM nl.cypherpunk.statelearner.Learner learn
+INFO: Starting learning
+Dec 01, 2017 9:59:58 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 1
+Dec 01, 2017 10:07:27 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA ClientKeyExchange ChangeCipherSpec Finished / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty Empty Alert2.51ConnectionClosed]
+Dec 01, 2017 10:07:27 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 2
+Dec 02, 2017 9:06:56 AM nl.cypherpunk.statelearner.Learner learn
+INFO: -------------------------------------------------------
+Dec 02, 2017 9:06:56 AM nl.cypherpunk.statelearner.Learner learn
+INFO: Learning [ms]: 321733, (321.733 s)
+Searching for counter-example [ms]: 39696326, (39696.326 s)
+Total time [ms]: 40018604, (40018.604 s)
+
+Dec 02, 2017 9:06:56 AM nl.cypherpunk.statelearner.Learner learn
+INFO: Rounds []: 2
+Dec 02, 2017 9:06:56 AM nl.cypherpunk.statelearner.Learner learn
+INFO: membership queries to SUL [queries]: 1198
+Dec 02, 2017 9:06:56 AM nl.cypherpunk.statelearner.Learner learn
+INFO: membership queries to cache [queries]: 1198
+Dec 02, 2017 9:06:56 AM nl.cypherpunk.statelearner.Learner learn
+INFO: equivalence queries to SUL [queries]: 18641
+Dec 02, 2017 9:06:56 AM nl.cypherpunk.statelearner.Learner learn
+INFO: equivalence queries to cache [queries]: 18641
+Dec 02, 2017 9:06:56 AM nl.cypherpunk.statelearner.Learner learn
+INFO: States in final hypothesis: 11

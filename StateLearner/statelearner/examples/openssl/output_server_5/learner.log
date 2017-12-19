@@ -1,0 +1,10 @@
+Dec 09, 2017 2:11:20 PM nl.cypherpunk.statelearner.Learner <init>
+INFO: Using TLS SUL
+Dec 09, 2017 2:11:25 PM nl.cypherpunk.statelearner.Learner learn
+INFO: Using learning algorithm ExtensibleLStarMealy
+Dec 09, 2017 2:11:25 PM nl.cypherpunk.statelearner.Learner learn
+INFO: Using equivalence algorithm MealyModifiedWMethodEQOracle
+Dec 09, 2017 2:11:25 PM nl.cypherpunk.statelearner.Learner learn
+INFO: Starting learning
+Dec 09, 2017 2:11:25 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 1

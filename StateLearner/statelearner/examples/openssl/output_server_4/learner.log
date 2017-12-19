@@ -1,0 +1,1546 @@
+Dec 09, 2017 2:10:58 PM nl.cypherpunk.statelearner.Learner <init>
+INFO: Using TLS SUL
+Dec 09, 2017 2:11:03 PM nl.cypherpunk.statelearner.Learner learn
+INFO: Using learning algorithm ExtensibleLStarMealy
+Dec 09, 2017 2:11:03 PM nl.cypherpunk.statelearner.Learner learn
+INFO: Using equivalence algorithm MealyModifiedWMethodEQOracle
+Dec 09, 2017 2:11:03 PM nl.cypherpunk.statelearner.Learner learn
+INFO: Starting learning
+Dec 09, 2017 2:11:03 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 1
+Dec 09, 2017 4:19:10 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDoneAlert2.10ConnectionClosed]
+Dec 09, 2017 4:19:10 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 2
+Dec 09, 2017 4:19:11 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:19:11 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 3
+Dec 09, 2017 4:19:13 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDoneAlert2.10ConnectionClosed]
+Dec 09, 2017 4:19:13 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 4
+Dec 09, 2017 4:19:15 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDoneAlert2.10ConnectionClosed]
+Dec 09, 2017 4:19:15 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 5
+Dec 09, 2017 4:19:17 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDoneAlert2.10ConnectionClosed]
+Dec 09, 2017 4:19:17 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 6
+Dec 09, 2017 4:19:19 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDoneAlert2.10ConnectionClosed]
+Dec 09, 2017 4:19:19 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 7
+Dec 09, 2017 4:19:21 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:19:21 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 8
+Dec 09, 2017 4:19:23 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDoneAlert2.10ConnectionClosed]
+Dec 09, 2017 4:19:23 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 9
+Dec 09, 2017 4:19:25 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDoneAlert2.10ConnectionClosed]
+Dec 09, 2017 4:19:25 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 10
+Dec 09, 2017 4:19:29 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 4:19:29 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 11
+Dec 09, 2017 4:19:32 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 4:19:32 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 12
+Dec 09, 2017 4:19:35 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty Empty]
+Dec 09, 2017 4:19:35 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 13
+Dec 09, 2017 4:19:39 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDoneAlert2.10ConnectionClosed]
+Dec 09, 2017 4:19:39 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 14
+Dec 09, 2017 4:19:44 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:19:44 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 15
+Dec 09, 2017 4:19:48 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:19:48 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 16
+Dec 09, 2017 4:19:51 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDoneAlert2.10ConnectionClosed]
+Dec 09, 2017 4:19:51 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 17
+Dec 09, 2017 4:19:56 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:19:56 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 18
+Dec 09, 2017 4:20:00 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDoneAlert2.10ConnectionClosed]
+Dec 09, 2017 4:20:00 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 19
+Dec 09, 2017 4:20:04 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDoneAlert2.10ConnectionClosed]
+Dec 09, 2017 4:20:04 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 20
+Dec 09, 2017 4:20:08 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 4:20:08 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 21
+Dec 09, 2017 4:20:15 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:20:15 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 22
+Dec 09, 2017 4:20:20 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:20:20 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 23
+Dec 09, 2017 4:20:28 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:20:28 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 24
+Dec 09, 2017 4:20:35 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:20:35 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 25
+Dec 09, 2017 4:20:39 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDoneAlert2.10ConnectionClosed]
+Dec 09, 2017 4:20:39 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 26
+Dec 09, 2017 4:20:45 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:20:45 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 27
+Dec 09, 2017 4:20:53 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:20:53 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 28
+Dec 09, 2017 4:20:59 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:20:59 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 29
+Dec 09, 2017 4:21:07 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:21:07 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 30
+Dec 09, 2017 4:21:14 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:21:14 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 31
+Dec 09, 2017 4:21:22 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:21:22 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 32
+Dec 09, 2017 4:21:29 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:21:29 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 33
+Dec 09, 2017 4:21:36 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:21:36 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 34
+Dec 09, 2017 4:21:41 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:21:41 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 35
+Dec 09, 2017 4:21:49 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:21:49 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 36
+Dec 09, 2017 4:21:56 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:21:56 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 37
+Dec 09, 2017 4:22:03 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:22:03 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 38
+Dec 09, 2017 4:22:10 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:22:10 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 39
+Dec 09, 2017 4:22:19 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:22:19 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 40
+Dec 09, 2017 4:22:30 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:22:30 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 41
+Dec 09, 2017 4:22:39 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:22:39 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 42
+Dec 09, 2017 4:22:49 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:22:49 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 43
+Dec 09, 2017 4:23:01 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:23:01 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 44
+Dec 09, 2017 4:23:09 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:23:09 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 45
+Dec 09, 2017 4:23:17 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:23:17 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 46
+Dec 09, 2017 4:23:29 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:23:29 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 47
+Dec 09, 2017 4:23:39 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:23:39 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 48
+Dec 09, 2017 4:23:49 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:23:49 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 49
+Dec 09, 2017 4:24:01 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:24:01 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 50
+Dec 09, 2017 4:24:11 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:24:11 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 51
+Dec 09, 2017 4:24:21 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:24:21 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 52
+Dec 09, 2017 4:24:35 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:24:35 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 53
+Dec 09, 2017 4:24:44 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:24:44 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 54
+Dec 09, 2017 4:24:57 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:24:57 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 55
+Dec 09, 2017 4:25:07 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:25:07 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 56
+Dec 09, 2017 4:25:19 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:25:19 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 57
+Dec 09, 2017 4:25:26 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:25:26 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 58
+Dec 09, 2017 4:25:39 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:25:39 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 59
+Dec 09, 2017 4:25:49 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:25:49 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 60
+Dec 09, 2017 4:26:00 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:26:00 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 61
+Dec 09, 2017 4:26:14 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:26:14 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 62
+Dec 09, 2017 4:26:22 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:26:22 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 63
+Dec 09, 2017 4:26:33 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:26:33 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 64
+Dec 09, 2017 4:26:48 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:26:48 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 65
+Dec 09, 2017 4:27:00 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:27:00 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 66
+Dec 09, 2017 4:27:16 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:27:16 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 67
+Dec 09, 2017 4:27:27 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:27:27 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 68
+Dec 09, 2017 4:27:42 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:27:42 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 69
+Dec 09, 2017 4:28:00 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:28:00 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 70
+Dec 09, 2017 4:28:13 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:28:13 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 71
+Dec 09, 2017 4:28:29 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:28:29 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 72
+Dec 09, 2017 4:28:46 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:28:46 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 73
+Dec 09, 2017 4:28:59 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:28:59 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 74
+Dec 09, 2017 4:29:18 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:29:18 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 75
+Dec 09, 2017 4:29:34 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:29:34 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 76
+Dec 09, 2017 4:29:51 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:29:51 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 77
+Dec 09, 2017 4:30:12 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:30:12 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 78
+Dec 09, 2017 4:30:31 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:30:31 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 79
+Dec 09, 2017 4:30:47 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:30:47 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 80
+Dec 09, 2017 4:31:01 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:31:01 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 81
+Dec 09, 2017 4:31:15 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:31:15 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 82
+Dec 09, 2017 4:31:28 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:31:28 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 83
+Dec 09, 2017 4:31:40 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:31:40 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 84
+Dec 09, 2017 4:32:01 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:32:01 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 85
+Dec 09, 2017 4:32:17 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:32:17 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 86
+Dec 09, 2017 4:32:36 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:32:36 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 87
+Dec 09, 2017 4:32:47 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:32:47 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 88
+Dec 09, 2017 4:33:03 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:33:03 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 89
+Dec 09, 2017 4:33:28 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:33:28 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 90
+Dec 09, 2017 4:33:44 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:33:44 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 91
+Dec 09, 2017 4:34:03 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:34:03 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 92
+Dec 09, 2017 4:34:15 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:34:15 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 93
+Dec 09, 2017 4:34:34 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:34:34 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 94
+Dec 09, 2017 4:34:59 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:34:59 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 95
+Dec 09, 2017 4:35:30 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:35:31 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 96
+Dec 09, 2017 4:35:43 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:35:43 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 97
+Dec 09, 2017 4:35:56 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:35:56 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 98
+Dec 09, 2017 4:36:17 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:36:17 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 99
+Dec 09, 2017 4:36:34 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:36:34 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 100
+Dec 09, 2017 4:36:50 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:36:50 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 101
+Dec 09, 2017 4:37:09 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:37:09 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 102
+Dec 09, 2017 4:37:26 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:37:26 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 103
+Dec 09, 2017 4:38:07 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:38:07 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 104
+Dec 09, 2017 4:38:26 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:38:26 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 105
+Dec 09, 2017 4:38:52 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:38:52 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 106
+Dec 09, 2017 4:39:18 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:39:18 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 107
+Dec 09, 2017 4:39:40 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:39:40 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 108
+Dec 09, 2017 4:39:58 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:39:58 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 109
+Dec 09, 2017 4:40:15 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:40:15 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 110
+Dec 09, 2017 4:40:38 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:40:38 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 111
+Dec 09, 2017 4:41:04 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:41:04 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 112
+Dec 09, 2017 4:41:25 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:41:25 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 113
+Dec 09, 2017 4:41:40 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:41:40 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 114
+Dec 09, 2017 4:42:50 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty Empty]
+Dec 09, 2017 4:42:51 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 115
+Dec 09, 2017 4:43:32 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 4:43:32 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 116
+Dec 09, 2017 4:43:51 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:43:51 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 117
+Dec 09, 2017 4:44:10 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:44:10 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 118
+Dec 09, 2017 4:44:39 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:44:39 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 119
+Dec 09, 2017 4:45:08 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:45:08 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 120
+Dec 09, 2017 4:45:25 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:45:25 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 121
+Dec 09, 2017 4:45:46 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone]
+Dec 09, 2017 4:45:46 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 122
+Dec 09, 2017 4:46:02 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:46:02 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 123
+Dec 09, 2017 4:46:30 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:46:30 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 124
+Dec 09, 2017 4:46:58 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:46:59 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 125
+Dec 09, 2017 4:47:27 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:47:27 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 126
+Dec 09, 2017 4:47:51 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:47:51 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 127
+Dec 09, 2017 4:48:11 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:48:11 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 128
+Dec 09, 2017 4:48:54 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:48:55 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 129
+Dec 09, 2017 4:49:18 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:49:18 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 130
+Dec 09, 2017 4:49:41 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:49:41 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 131
+Dec 09, 2017 4:50:15 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:50:16 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 132
+Dec 09, 2017 4:50:40 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:50:40 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 133
+Dec 09, 2017 4:51:20 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:51:23 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 134
+Dec 09, 2017 4:51:47 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:51:47 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 135
+Dec 09, 2017 4:52:15 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:52:15 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 136
+Dec 09, 2017 4:52:45 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:52:45 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 137
+Dec 09, 2017 4:53:13 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:53:13 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 138
+Dec 09, 2017 4:53:36 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:53:36 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 139
+Dec 09, 2017 4:54:05 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:54:06 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 140
+Dec 09, 2017 4:54:32 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:54:32 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 141
+Dec 09, 2017 4:54:54 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:54:54 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 142
+Dec 09, 2017 4:55:19 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:55:20 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 143
+Dec 09, 2017 4:55:38 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:55:38 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 144
+Dec 09, 2017 4:56:14 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:56:15 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 145
+Dec 09, 2017 4:56:31 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:56:31 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 146
+Dec 09, 2017 4:57:01 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:57:01 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 147
+Dec 09, 2017 4:57:22 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:57:22 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 148
+Dec 09, 2017 4:57:42 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:57:42 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 149
+Dec 09, 2017 4:58:19 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:58:20 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 150
+Dec 09, 2017 4:58:47 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 4:58:47 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 151
+Dec 09, 2017 4:59:56 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone]
+Dec 09, 2017 4:59:58 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 152
+Dec 09, 2017 5:00:27 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:00:27 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 153
+Dec 09, 2017 5:00:41 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:00:41 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 154
+Dec 09, 2017 5:01:04 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:01:04 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 155
+Dec 09, 2017 5:01:33 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:01:33 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 156
+Dec 09, 2017 5:02:14 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:02:14 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 157
+Dec 09, 2017 5:02:47 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:02:47 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 158
+Dec 09, 2017 5:03:17 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:03:17 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 159
+Dec 09, 2017 5:03:41 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:03:41 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 160
+Dec 09, 2017 5:04:09 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:04:09 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 161
+Dec 09, 2017 5:04:55 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:04:57 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 162
+Dec 09, 2017 5:05:35 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:05:36 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 163
+Dec 09, 2017 5:05:43 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:05:43 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 164
+Dec 09, 2017 5:06:16 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:06:16 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 165
+Dec 09, 2017 5:06:54 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:06:55 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 166
+Dec 09, 2017 5:07:32 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:07:33 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 167
+Dec 09, 2017 5:08:15 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:08:16 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 168
+Dec 09, 2017 5:08:49 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:08:49 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 169
+Dec 09, 2017 5:09:38 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:09:39 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 170
+Dec 09, 2017 5:10:15 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:10:15 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 171
+Dec 09, 2017 5:10:47 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:10:47 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 172
+Dec 09, 2017 5:11:18 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:11:19 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 173
+Dec 09, 2017 5:11:47 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:11:48 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 174
+Dec 09, 2017 5:12:22 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:12:22 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 175
+Dec 09, 2017 5:12:48 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:12:48 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 176
+Dec 09, 2017 5:13:18 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:13:18 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 177
+Dec 09, 2017 5:14:00 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:14:00 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 178
+Dec 09, 2017 5:14:40 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:14:40 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 179
+Dec 09, 2017 5:15:18 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:15:18 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 180
+Dec 09, 2017 5:16:03 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:16:04 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 181
+Dec 09, 2017 5:16:25 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:16:25 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 182
+Dec 09, 2017 5:16:55 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:16:57 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 183
+Dec 09, 2017 5:17:25 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:17:25 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 184
+Dec 09, 2017 5:17:50 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:17:50 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 185
+Dec 09, 2017 5:18:29 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:18:30 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 186
+Dec 09, 2017 5:18:58 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:18:59 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 187
+Dec 09, 2017 5:19:29 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:19:32 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 188
+Dec 09, 2017 5:20:02 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:20:02 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 189
+Dec 09, 2017 5:20:36 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:20:36 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 190
+Dec 09, 2017 5:21:12 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:21:13 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 191
+Dec 09, 2017 5:21:58 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:22:01 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 192
+Dec 09, 2017 5:22:34 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:22:34 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 193
+Dec 09, 2017 5:23:16 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:23:18 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 194
+Dec 09, 2017 5:23:34 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:23:34 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 195
+Dec 09, 2017 5:24:18 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:24:20 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 196
+Dec 09, 2017 5:25:03 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:25:04 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 197
+Dec 09, 2017 5:25:37 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDoneAlert2.10ConnectionClosed]
+Dec 09, 2017 5:25:37 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 198
+Dec 09, 2017 5:26:20 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 5:26:22 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 199
+Dec 09, 2017 5:27:12 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:27:15 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 200
+Dec 09, 2017 5:27:57 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:27:59 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 201
+Dec 09, 2017 5:28:49 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:28:52 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 202
+Dec 09, 2017 5:29:18 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:29:19 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 203
+Dec 09, 2017 5:29:50 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:29:51 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 204
+Dec 09, 2017 5:30:26 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:30:27 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 205
+Dec 09, 2017 5:31:05 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:31:07 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 206
+Dec 09, 2017 5:31:40 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:31:40 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 207
+Dec 09, 2017 5:32:26 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:32:28 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 208
+Dec 09, 2017 5:33:22 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:33:23 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 209
+Dec 09, 2017 5:34:07 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:34:08 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 210
+Dec 09, 2017 5:35:05 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty Empty]
+Dec 09, 2017 5:35:06 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 211
+Dec 09, 2017 5:35:56 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty Empty]
+Dec 09, 2017 5:35:57 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 212
+Dec 09, 2017 5:36:41 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:36:42 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 213
+Dec 09, 2017 5:37:25 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:37:27 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 214
+Dec 09, 2017 5:38:12 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:38:14 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 215
+Dec 09, 2017 5:39:15 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:39:17 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 216
+Dec 09, 2017 5:40:13 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:40:15 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 217
+Dec 09, 2017 5:41:38 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:41:39 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 218
+Dec 09, 2017 5:43:08 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:43:08 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 219
+Dec 09, 2017 5:44:22 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:44:24 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 220
+Dec 09, 2017 5:45:53 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:45:56 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 221
+Dec 09, 2017 5:47:36 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:47:40 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 222
+Dec 09, 2017 5:49:50 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:49:54 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 223
+Dec 09, 2017 5:51:05 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:51:08 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 224
+Dec 09, 2017 5:52:54 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:52:56 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 225
+Dec 09, 2017 5:53:30 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:53:31 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 226
+Dec 09, 2017 5:54:36 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:54:37 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 227
+Dec 09, 2017 5:55:54 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:55:55 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 228
+Dec 09, 2017 5:57:38 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:57:41 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 229
+Dec 09, 2017 5:59:01 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:59:03 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 230
+Dec 09, 2017 5:59:50 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 5:59:51 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 231
+Dec 09, 2017 6:00:34 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:00:34 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 232
+Dec 09, 2017 6:01:02 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:01:04 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 233
+Dec 09, 2017 6:01:26 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:01:26 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 234
+Dec 09, 2017 6:02:01 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 6:02:01 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 235
+Dec 09, 2017 6:02:42 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:02:44 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 236
+Dec 09, 2017 6:03:21 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:03:22 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 237
+Dec 09, 2017 6:04:09 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 6:04:10 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 238
+Dec 09, 2017 6:04:58 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:04:59 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 239
+Dec 09, 2017 6:05:49 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:05:49 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 240
+Dec 09, 2017 6:06:39 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:06:41 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 241
+Dec 09, 2017 6:07:44 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:07:46 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 242
+Dec 09, 2017 6:08:23 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:08:23 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 243
+Dec 09, 2017 6:08:54 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:08:54 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 244
+Dec 09, 2017 6:09:26 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:09:27 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 245
+Dec 09, 2017 6:09:50 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:09:50 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 246
+Dec 09, 2017 6:10:17 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:10:17 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 247
+Dec 09, 2017 6:10:43 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:10:44 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 248
+Dec 09, 2017 6:11:23 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:11:23 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 249
+Dec 09, 2017 6:11:51 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:11:51 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 250
+Dec 09, 2017 6:12:20 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:12:20 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 251
+Dec 09, 2017 6:12:53 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:12:53 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 252
+Dec 09, 2017 6:13:27 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:13:28 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 253
+Dec 09, 2017 6:13:59 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:14:01 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 254
+Dec 09, 2017 6:14:24 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDoneAlert2.10ConnectionClosed]
+Dec 09, 2017 6:14:24 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 255
+Dec 09, 2017 6:14:53 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone]
+Dec 09, 2017 6:14:54 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 256
+Dec 09, 2017 6:15:26 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:15:26 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 257
+Dec 09, 2017 6:16:15 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:16:15 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 258
+Dec 09, 2017 6:16:45 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDoneAlert2.10ConnectionClosed]
+Dec 09, 2017 6:16:47 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 259
+Dec 09, 2017 6:17:13 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:17:14 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 260
+Dec 09, 2017 6:17:45 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:17:48 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 261
+Dec 09, 2017 6:18:12 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:18:12 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 262
+Dec 09, 2017 6:18:27 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:18:27 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 263
+Dec 09, 2017 6:18:52 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:18:52 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 264
+Dec 09, 2017 6:19:23 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:19:23 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 265
+Dec 09, 2017 6:19:48 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:19:49 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 266
+Dec 09, 2017 6:20:19 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 6:20:19 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 267
+Dec 09, 2017 6:20:38 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:20:38 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 268
+Dec 09, 2017 6:21:00 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:21:01 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 269
+Dec 09, 2017 6:21:24 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:21:24 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 270
+Dec 09, 2017 6:21:52 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:21:52 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 271
+Dec 09, 2017 6:22:27 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:22:28 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 272
+Dec 09, 2017 6:23:05 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:23:05 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 273
+Dec 09, 2017 6:23:41 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone]
+Dec 09, 2017 6:23:42 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 274
+Dec 09, 2017 6:24:13 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:24:13 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 275
+Dec 09, 2017 6:24:54 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:24:56 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 276
+Dec 09, 2017 6:25:20 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:25:20 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 277
+Dec 09, 2017 6:25:54 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 6:25:54 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 278
+Dec 09, 2017 6:26:26 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:26:26 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 279
+Dec 09, 2017 6:27:06 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:27:07 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 280
+Dec 09, 2017 6:27:54 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone]
+Dec 09, 2017 6:27:55 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 281
+Dec 09, 2017 6:28:21 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:28:21 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 282
+Dec 09, 2017 6:28:48 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:28:48 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 283
+Dec 09, 2017 6:29:34 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:29:35 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 284
+Dec 09, 2017 6:30:05 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:30:06 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 285
+Dec 09, 2017 6:30:44 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:30:44 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 286
+Dec 09, 2017 6:33:19 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:33:21 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 287
+Dec 09, 2017 6:34:04 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:34:04 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 288
+Dec 09, 2017 6:34:45 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:34:46 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 289
+Dec 09, 2017 6:35:27 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:35:27 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 290
+Dec 09, 2017 6:36:10 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:36:10 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 291
+Dec 09, 2017 6:37:01 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:37:02 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 292
+Dec 09, 2017 6:38:01 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:38:03 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 293
+Dec 09, 2017 6:38:21 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:38:21 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 294
+Dec 09, 2017 6:38:48 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:38:48 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 295
+Dec 09, 2017 6:40:42 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:40:43 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 296
+Dec 09, 2017 6:41:18 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:41:18 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 297
+Dec 09, 2017 6:42:20 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:42:22 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 298
+Dec 09, 2017 6:43:05 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:43:06 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 299
+Dec 09, 2017 6:43:58 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:43:58 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 300
+Dec 09, 2017 6:45:01 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone]
+Dec 09, 2017 6:45:04 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 301
+Dec 09, 2017 6:45:43 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:45:45 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 302
+Dec 09, 2017 6:53:54 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 6:53:58 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 303
+Dec 09, 2017 6:55:38 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:55:38 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 304
+Dec 09, 2017 6:56:57 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:56:57 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 305
+Dec 09, 2017 6:58:01 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:58:01 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 306
+Dec 09, 2017 6:58:41 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 6:58:41 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 307
+Dec 09, 2017 6:59:16 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 6:59:16 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 308
+Dec 09, 2017 7:00:02 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:00:02 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 309
+Dec 09, 2017 7:00:52 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:00:52 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 310
+Dec 09, 2017 7:01:14 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:01:14 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 311
+Dec 09, 2017 7:01:32 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty Empty]
+Dec 09, 2017 7:01:32 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 312
+Dec 09, 2017 7:01:57 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty Empty]
+Dec 09, 2017 7:01:57 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 313
+Dec 09, 2017 7:02:23 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:02:23 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 314
+Dec 09, 2017 7:02:52 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:02:52 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 315
+Dec 09, 2017 7:03:17 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:03:17 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 316
+Dec 09, 2017 7:03:35 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:03:35 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 317
+Dec 09, 2017 7:04:02 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:04:02 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 318
+Dec 09, 2017 7:04:36 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:04:36 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 319
+Dec 09, 2017 7:05:01 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:05:01 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 320
+Dec 09, 2017 7:05:33 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone]
+Dec 09, 2017 7:05:33 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 321
+Dec 09, 2017 7:06:00 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty Empty]
+Dec 09, 2017 7:06:00 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 322
+Dec 09, 2017 7:06:25 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:06:25 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 323
+Dec 09, 2017 7:06:49 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:06:49 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 324
+Dec 09, 2017 7:07:08 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:07:08 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 325
+Dec 09, 2017 7:07:33 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:07:33 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 326
+Dec 09, 2017 7:07:54 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:07:54 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 327
+Dec 09, 2017 7:08:12 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:08:12 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 328
+Dec 09, 2017 7:08:35 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:08:35 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 329
+Dec 09, 2017 7:08:53 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:08:53 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 330
+Dec 09, 2017 7:09:11 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:09:11 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 331
+Dec 09, 2017 7:09:39 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:09:39 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 332
+Dec 09, 2017 7:09:59 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:10:00 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 333
+Dec 09, 2017 7:10:55 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:10:57 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 334
+Dec 09, 2017 7:17:58 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:17:59 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 335
+Dec 09, 2017 7:20:08 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:20:08 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 336
+Dec 09, 2017 7:21:24 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:21:24 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 337
+Dec 09, 2017 7:22:27 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:22:27 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 338
+Dec 09, 2017 7:23:39 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 7:23:40 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 339
+Dec 09, 2017 7:24:17 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 7:24:17 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 340
+Dec 09, 2017 7:24:50 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDoneAlert2.10ConnectionClosed]
+Dec 09, 2017 7:24:50 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 341
+Dec 09, 2017 7:25:27 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:25:27 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 342
+Dec 09, 2017 7:26:07 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:26:09 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 343
+Dec 09, 2017 7:26:43 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:26:43 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 344
+Dec 09, 2017 7:27:28 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:27:29 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 345
+Dec 09, 2017 7:28:15 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:28:16 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 346
+Dec 09, 2017 7:38:58 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientHelloRSA / Empty Empty]
+Dec 09, 2017 7:39:02 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 347
+Dec 09, 2017 7:41:40 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:41:40 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 348
+Dec 09, 2017 7:44:12 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:44:14 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 349
+Dec 09, 2017 7:46:54 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:46:55 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 350
+Dec 09, 2017 7:48:21 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:48:21 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 351
+Dec 09, 2017 7:49:37 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / Empty HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone]
+Dec 09, 2017 7:49:41 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 352
+Dec 09, 2017 7:50:23 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:50:25 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 353
+Dec 09, 2017 7:52:37 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:52:40 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 354
+Dec 09, 2017 7:53:25 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 7:53:27 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 355
+Dec 09, 2017 7:54:13 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:54:13 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 356
+Dec 09, 2017 7:54:47 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:54:47 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 357
+Dec 09, 2017 7:55:18 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:55:18 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 358
+Dec 09, 2017 7:55:47 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 7:55:49 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 359
+Dec 09, 2017 7:56:25 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:56:25 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 360
+Dec 09, 2017 7:57:02 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:57:03 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 361
+Dec 09, 2017 7:57:34 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:57:34 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 362
+Dec 09, 2017 7:58:04 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:58:05 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 363
+Dec 09, 2017 7:58:36 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:58:36 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 364
+Dec 09, 2017 7:59:05 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 7:59:05 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 365
+Dec 09, 2017 8:00:23 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 8:00:23 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 366
+Dec 09, 2017 8:02:18 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 8:02:21 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 367
+Dec 09, 2017 8:04:15 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 8:04:15 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 368
+Dec 09, 2017 8:04:42 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 8:04:42 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 369
+Dec 09, 2017 8:06:44 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 8:06:46 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 370
+Dec 09, 2017 8:07:22 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 8:07:22 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 371
+Dec 09, 2017 8:08:00 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 8:08:01 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 372
+Dec 09, 2017 8:08:33 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 8:08:33 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 373
+Dec 09, 2017 8:09:00 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 8:09:00 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 374
+Dec 09, 2017 8:34:11 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 8:34:22 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 375
+Dec 09, 2017 8:43:04 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 8:43:06 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 376
+Dec 09, 2017 8:46:57 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 8:46:58 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 377
+Dec 09, 2017 8:51:36 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 8:51:38 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 378
+Dec 09, 2017 8:54:03 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 8:54:05 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 379
+Dec 09, 2017 8:56:25 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 8:56:27 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 380
+Dec 09, 2017 9:23:34 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA ClientKeyExchange / HandshakeServerHelloTLSv12HandshakeCertificateHandshakeServerHelloDone Empty]
+Dec 09, 2017 9:23:38 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 381
+Dec 09, 2017 9:26:26 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 9:26:28 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 382
+Dec 09, 2017 9:27:33 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 9:27:34 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 383
+Dec 09, 2017 9:43:33 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 9:43:38 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 384
+Dec 09, 2017 9:48:53 PM de.learnlib.logging.LearnLogger logCounterexample
+INFO: Counter-example found: Query[ε|ClientHelloRSA / Empty]
+Dec 09, 2017 9:48:56 PM de.learnlib.logging.LearnLogger logPhase
+INFO: Starting round 385
